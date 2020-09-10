@@ -10,6 +10,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 * CSS3
 
 <h3>📖 Regras gerais</h3>
+
 * Realizar um projeto por dia
 * Compartilhar seu progresso nas mídias sociais (Twitter, Facebook, Linkedin etc.) usando a hashtag #30diasDeCSS
 * O projeto deve ser concluído até 23:59
