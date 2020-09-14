@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "oswald";
+}
+
+body {
+    background: #6386cc;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-1 {
+    width: 200px;
+    height: 60px;
+    background: none;
+    border: 4px solid;
+    color: rgb(7, 1, 78);
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+}
+
+.btn-1::before, .btn-1::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 4px;
+    background: #dde5f5;
+    transform: skewX(50deg);
+    transition: .4s linear;
+}
+
+.btn-1::before {
+    top: -4px;
+    left: 10%;
+}
+
+.btn-1::after {
+    bottom: -4px;
+    right: 10%;
+}
+
+.btn-1:hover::before {
+    left: 80%;
+}
+
+.btn-1:hover::after {
+    right: 80%;
+}
+
+
+
+
+.btn-2 {
+    width: 200px;
+    height: 60px;
+    background: none;
+    border: 4px solid;
+    color: rgb(7, 1, 78);
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+}
+
+.btn-2::before, .btn-2::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 4px;
+    background: #dde5f5;
+    transform: skewX(50deg);
+    transition: .4s linear;
+}
+
+.btn-2::before {
+    top: -4px;
+    left: 10%;
+}
+
+.btn-2::after {
+    bottom: -4px;
+    right: 10%;
+}
+
+.btn-2:hover::before {
+    left: 80%;
+}
+
+.btn-2:hover::after {
+    right: 80%;
+}
